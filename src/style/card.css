@@ -1,0 +1,43 @@
+.card {
+  width: 29%;
+  height: 250px;
+  background: linear-gradient(to right, rgb(0, 255, 98), rgb(16, 136, 192));
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.card img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: small;
+}
+
+button {
+  font-size: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  height: 300px;
+  width: 20px;
+  background-color: Ored;
+  color: white;
+  border-radius: 15px 0 0 15px;
+  transform: 0.5s;
+  opacity: 0;
+}
+
+button:hover {
+  width: 200px;
+  opacity: 0.8;
+  cursor: pointer;
+}

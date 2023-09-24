@@ -1,0 +1,29 @@
+nav {
+  padding: 20px;
+  background:linear-gradient(to right, rgb(255, 255, 0),rgb(7, 233, 233),rgb(192, 104, 16));
+
+  display: flex;
+  justify-content: space-between;
+}
+nav img {
+  width: 50px;
+}
+.kategori ul{
+    list-style: none;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.kategori ul li{
+    display: inline-block;
+    margin-inline: 30px;
+    font-size: 1rem;
+    transform: .5s;
+}
+.kategori ul li:hover{
+    text-decoration: underline;
+    transform:  scale(1.5);
+    color: orangered;
+}
